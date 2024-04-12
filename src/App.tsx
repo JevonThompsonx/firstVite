@@ -11,10 +11,16 @@ import DiceConditional from "./components/DiceConditional";
 import ColorArray from "./components/ColorArray";
 import Slots from "./components/Slots";
 import GroceryListUl from "./components/GroceryList";
+import PropertyList from "./components/PropertyList";
+import ButtonTest from "./components/ButtonTest";
+import FormTest from "./components/FormTest";
 function App() {
 	const colors = ["red", "blue", "orange", "yellow"];
 	return (
 		<>
+			<FormTest />
+			<ButtonTest />
+			<PropertyList />
 			<GroceryListUl
 				array={[
 					{ key: 1, item: "Apple", quantity: 12, acquired: true },
