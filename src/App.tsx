@@ -11,16 +11,26 @@ import DiceConditional from "./components/DiceConditional";
 import ColorArray from "./components/ColorArray";
 import Slots from "./components/Slots";
 import GroceryListUl from "./components/GroceryList";
-import PropertyList from "./components/PropertyList";
+// import PropertyList from "./components/PropertyList";
 import ButtonTest from "./components/ButtonTest";
 import FormTest from "./components/FormTest";
+import Alert from "./components/Alert";
+import StateTest from "./components/StateTest";
+import ColorBoxes from "./components/ColorBoxes";
+
+//endGoal = Make all of these react elements appear in a list than can be displayed on selection
+
 function App() {
 	const colors = ["red", "blue", "orange", "yellow"];
 	return (
 		<>
+			<ColorBoxes />
+			<StateTest />
+			<Alert alertMessage="HIII!!" buttonMessage="Click here for an alert" />
+
 			<FormTest />
 			<ButtonTest />
-			<PropertyList />
+			{/*<PropertyList />*/}
 			<GroceryListUl
 				array={[
 					{ key: 1, item: "Apple", quantity: 12, acquired: true },

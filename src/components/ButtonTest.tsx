@@ -11,7 +11,7 @@ export default function ButtonTest() {
 				onClick={() => console.log("You clicked me! Thanks!!")}
 				type="button"
 			>
-				Click me
+				Click me then check console
 			</button>
 		</div>
 	);
