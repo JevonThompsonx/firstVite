@@ -13,7 +13,7 @@ export default function ColorBox() {
 	};
 	return (
 		<div
-			className={`w-32 h-32 border border-black ${boxColor} flex justify-center items-center  `}
+			className={`w-14 h-14 border border-black ${boxColor} flex justify-center items-center  `}
 			onClick={changeBoxColor}
 		></div>
 	);

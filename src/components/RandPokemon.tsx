@@ -1,5 +1,5 @@
 import getRandomInt from "../utils/getRandomInt";
-
+//turn this into a who's that pokemon game
 const RandPokemon = () => {
 	const pokemonNumber = getRandomInt(152);
 	const randomSource = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${pokemonNumber}.png`;
